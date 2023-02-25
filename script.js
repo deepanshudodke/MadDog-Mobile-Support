@@ -262,10 +262,10 @@ function displayStatusText(context) {
         context.textAlign = 'center';
         context.fillStyle = 'black';
         context.font = '40px Helvetica';
-        context.fillText('GameOver Try Again | Press Enter or Swipe Down', canvas.width / 2, 250);
+        context.fillText('GameOver | Swipe Down for restart | Swipe Up to Jump', canvas.width / 2, 250);
         context.fillStyle = 'white';
         //context.font = '40px Helvetica';
-        context.fillText('GameOver Try Again | Press Enter or Swipe Down', canvas.width / 2, 255);
+        context.fillText('GameOver | Swipe Down for restart | Swipe Up to Jump', canvas.width / 2, 255);
 
     }
 }
